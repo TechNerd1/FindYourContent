@@ -2,12 +2,6 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 
-donate = """
-        <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" 
-        data-name="bmc-button" data-slug="caleblafeve" data-color="#FFDD00" data-emoji="☕"  
-        data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
-        """
-
 st.set_page_config(page_title="About")
 hide_streamlit_style = """
             <style>
@@ -23,6 +17,3 @@ st.write("""
          
         """)
 st.markdown(link, unsafe_allow_html=True)
-components.html(donate)
-        
-

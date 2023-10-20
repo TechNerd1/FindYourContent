@@ -28,15 +28,6 @@ def filter_videos(videos):
             filtered.append(video)
     return filtered
 
-donate = """
-        <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" 
-        data-name="bmc-button" data-slug="caleblafeve" data-color="#FFDD00" data-emoji="☕"  
-        data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
-        """
-        
-
-
-
 def cs_body():
     st.set_page_config(page_title="Search")
 
@@ -88,9 +79,6 @@ def cs_body():
             st.warning("Nothing Found")
     else:
         st.warning("If SSSniperWolf has used your content and you're struggling to locate it, simply input relevant keywords. This platform searches through transcripts of all her YouTube videos to help you pinpoint the exact video where your content appears. By utilizing this search function, you agree to the site's disclaimer.")
-
-
-
-    
+ 
 if __name__ == '__main__':
     main()

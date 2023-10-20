@@ -36,8 +36,6 @@ def search_phrase_in_db(phrase, conn):
 
     return found_entries
 
-
-
 conn = sqlite3.connect('transcripts.db')
 
 conn.close()

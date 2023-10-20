@@ -1,0 +1,5 @@
+myvenv
+src/__pycache__
+/Procfile
+/transcripts_fts.db
+/transcripts.db
